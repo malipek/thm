@@ -1,4 +1,3 @@
 <?php 
-echo `hostname >> /etc/motd`;
-echo `hostname > /var/www/html/flag`;
+passthru('hostname');
 ?>
