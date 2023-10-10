@@ -1,1 +1,4 @@
-<?php echo `hostname`; ?>
+<?php
+echo "Hostname: "; 
+echo `hostname`;
+?>
